@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header{
@@ -18,9 +20,93 @@ header{
     display: flex;
     align-items: center;
 }
+.primeiraparte #traco{
+    width: 2px;
+    height: 25px;
+    background-color: dimgray;
+}
+.primeiraparte img{
+    width: 96px;
+    margin-left: 35px;
+    margin-right: 35px;
+    cursor: pointer;
+}
 
 .primeiraparte nav{
     display: flex;
-    gap: 20px;
-    margin-left: 20px;
+    align-items: center;
+    gap: 40px;
+}
+
+.primeiraparte nav a{
+    font-weight: 550;
+    font-size: 16px;
+    padding: 10px 10px;
+}
+
+.primeiraparte nav a:hover{
+    background-color: #fff;
+    color: #00050d;
+    border-radius: 10px;
+}
+#link{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+#link .rodar{
+    display: inline-block;
+    transform: rotate(90deg);
+    font-size: 20px;
+}
+#segundaparte{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-right: 28px;
+}
+#segundaparte i{
+    font-size: 20px;
+}
+#segundaparte button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+#segundaparte .estiloUnico{
+    padding: 10px 10px;
+}
+#segundaparte .estiloUnico:hover{
+    background-color: #fff;
+    border-radius: 50%;
+}
+.estiloUnico:hover i{
+    color: #00050d;
+}
+#segundaparte .imgs{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#segundaparte .imgs:hover{
+    border: 6px solid #fff;
+    border-radius: 50%;
+}
+#segundaparte img{
+    width: 30px;
+}
+#assinar{
+    background-color: #1a98ff;
+    border-radius: 10px;
+    font-weight: 550;
+    padding: 11px 14px;
+    transition: .2s all;
+}
+#assinar:hover{
+    background-color: #1a98ff;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.788);
 }
